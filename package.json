@@ -1,0 +1,38 @@
+{
+  "name": "my_series",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.8.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.3",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "reduxsauce": "^1.0.1",
+    "styled-components": "^3.4.5"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.7.0",
+    "redux-saga-testing": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "https://us-central1-netflix-series.cloudfunctions.net/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
